@@ -78,7 +78,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -50px;
+  margin-right: -70px;
   margin-left: -15px; 
 }
 .container {
