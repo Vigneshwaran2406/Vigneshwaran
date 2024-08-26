@@ -71,9 +71,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 @media screen and (max-width:600px){
   .spaced-table td {
       justify-content: center;
-      display: flexbox;
+      display: flex;
       flex-direction: column;
-      padding: 15px; /* Adjust the value as needed */
+      padding: 10px; /* Adjust the value as needed */
     }
 }
 
