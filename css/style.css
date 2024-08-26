@@ -61,18 +61,23 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
      width: 10in;
      height:10px;
   }
+    
+@media screen and (max-width:2500px) and (min-width:600px){
+  
     .spaced-table td {
       justify-content: center;
-      display: flexbox;
+      display:-ms-flexbox;
       flex-direction: column;
       padding: 15px; /* Adjust the value as needed */
     }
-
-@media screen and (max-width:2500px) and (min-width:600px){
-    .spaced-table td {
-      justify-content: center;
-      
-      padding: 10px; /* Adjust the value as needed */
+    .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -50px;
+      margin-left: -15px; 
     }
 }
 
@@ -500,14 +505,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+
 
 .no-gutters {
   margin-right: 0;
