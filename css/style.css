@@ -70,8 +70,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 @media screen and (max-width:600px){
   .spaced-table td {
-
-  }
+      justify-content: center;
+      display: flexbox;
+      flex-direction: column;
+      padding: 15px; /* Adjust the value as needed */
+    }
 }
 
   
