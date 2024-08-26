@@ -61,14 +61,19 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
      width: 10in;
      height:10px;
   }
-  @media screen and (max-width: 600px){
     .spaced-table td {
       justify-content: center;
       display: flexbox;
       flex-direction: column;
       padding: 15px; /* Adjust the value as needed */
     }
+
+@media screen and (max-width:600px){
+  .spaced-table td {
+
   }
+}
+
   
 body {
   margin: 0;
